@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Pig Dice</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="container" id="player name area">
-      <div class="row">
-    <h1><div class="element">Pig Dice</div></h1>
-      </div>
-      <div class="row">
-    <form id= "form">
-    <div class="form-group">
-      <label class="col-form-label" for="formGroupExampleInput">Player 1</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Name">
-      <button type="submit"class="btn btn-primary" name="submit">Submit</button>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pig Dice</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container" id="player name area">
+    <div class="row">
+      <h1><div style="margin-top:10px"class="element">Pig Dices</div></h1>
     </div>
-    <div class="form-group">
-      <label class="col-form-label" for="formGroupExampleInput2">Player 2</label>
-      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input Name">
-      <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+    <div class="row">
+      <form id="form">
+        <div class="form-group">
+          <label class="col-form-label" for="formGroupExampleInput">Player 1</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Name">
+          <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </div>
+        <div class="form-group">
+          <label class="col-form-label" for="formGroupExampleInput2">Player 2</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Input Name">
+          <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </div>
+      </form>
     </div>
-  </form>
-</div>
-  <div class="container-fluid">
-    <div class="jumbotron">
-      <p>Player 1 </p>
-      <button type="submit" class="btn btn-primary" name="submit">Play</button>
-      <button type="submit" class="btn btn-primary" name="submit">Hold</button>
-      <div class="float-left" id= "player2">
-        <p>Player 2</p>
+    <div class="container-fluid">
+      <div class="jumbotron">
+        <p>Player 1 </p>
         <button type="submit" class="btn btn-primary" name="submit">Play</button>
         <button type="submit" class="btn btn-primary" name="submit">Hold</button>
+        <div class="margin-left" id="player2">
+          <p>Player 2</p>
+          <button type="submit" class="btn btn-primary" name="submit">Play</button>
+          <button type="submit" class="btn btn-primary" name="submit">Hold</button>
+        </div>
       </div>
     </div>
   </div>
-  </div>
 
-  </body>
-  <script src="js/scripts.js" charset="utf-8"></script>
-  <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
-  </script>
+</body>
+<script src="js/scripts.js" charset="utf-8"></script>
+<script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+</script>
+
 </html>
