@@ -1,19 +1,19 @@
 # Pig dice website
 
-#### By **David M'rabu** 2/11/2017
+#### By **David M'rabu** from 3/11/2017
 
 ## Description
 
 This is a website that shows the use of JavaScript objects, functions  in creating a to do list site and also document my progress as a software developer.
 
-## Specs
-# Each turn, a player repeatedly rolls a 'die' until either a 1 is rolled or the player decides to hold.
+# Specs
+## Each turn, a player repeatedly rolls a 'die' until either a 1 is rolled or the player decides to hold.
 * If the player rolls a 1, they score nothing and it becomes the next player's turn.
 * If the player rolls any other number, it is added to their turn total and the player's turn continues.
 * If the player chooses to 'hold', their turn total is added to their score, and it becomes the next player's turn.
 # The first player to score 100 points wins
 
-## Setup/Installation Requirements
+# Setup/Installation Requirements
 
 * A computer.
 * Internet access.
