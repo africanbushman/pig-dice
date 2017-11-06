@@ -66,5 +66,9 @@ body {
 
 #player2 {
   margin-left: 850px;
-  margin-top: -80px;
+  margin-top: -105px;
+}
+#jumbotron {
+  height: 180px;
+  width: 1140px;
 }
