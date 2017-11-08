@@ -63,3 +63,4 @@ else
 alert("you rolled a " + dice1 + " and " + dice2 + ". Your score is " + score + ".");
 }
 }
+ 
